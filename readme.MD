@@ -1,4 +1,4 @@
-# Stock Trade API - CI/CD Pipeline
+# Stock Trade API
 
 This project contains multiple stock trading-related APIs and services, which are automatically tested using GitHub Actions CI/CD pipeline. The continuous integration is configured to run tests on every push and pull request to the `main` branch for the three different projects.
 
