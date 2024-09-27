@@ -16,9 +16,7 @@ jobs:
       matrix:
         node-version: [14.x, 16.x, 18.x]  
         project:
-          - Expressjs Authentication Middleware
-          - Stock Trades API
-          - Sequelize Stock Trades API
+          - Expressjs\ Authentication\ Middleware
 
     steps:
       # Checkout the code
