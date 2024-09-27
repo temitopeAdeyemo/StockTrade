@@ -58,7 +58,6 @@ exports.getTradeById = async (req, res, next) => {
   const tradeId = parseInt(req.params.id);
 
   try {
-    // Use Sequelize to find the trade by ID
     const trade = await tradeService.getTradeByIdService(tradeId);
     
     return res.status(200).json(trade);
