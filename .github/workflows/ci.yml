@@ -21,7 +21,6 @@ jobs:
           - Sequelize\ Stock\ Trades\ API/
 
     steps:
-      # Checkout the code
       - name: Checkout code
         uses: actions/checkout@v2
 
